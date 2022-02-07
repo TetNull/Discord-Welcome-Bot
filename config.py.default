@@ -1,0 +1,32 @@
+# Important Values
+DISCORD_API_TOKEN = ""
+GUILD_ID = ""
+# PERMISSIONS_INTEGER = ""
+
+# Channels
+BOT_LOGS = 0
+WELCOME_CHANNEL = 0
+
+# Roles that can use this bot's commands
+ALLOWED_ROLES = {
+    }
+ROLES = {
+    "approved": [0],  # Approved
+}
+
+# Message Templates
+WELCOME_MESSAGE = """
+1) Ping the @Mods
+
+You should (optionally) introduce yourself in <#0>.
+"""
+
+# Banned Wordlist
+BANNED_WORDS = (
+    r""
+)
+
+# Regex filters for messages
+LITERAL_FILTERS = (
+    r""
+)
